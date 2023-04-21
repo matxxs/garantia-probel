@@ -1,18 +1,30 @@
-@media screen and ( max-width: 1920px) {
-    
-    .imput-group{
-        overflow: auto; 
-    }    
+@media screen and (max-width: 1920px) {
+
+    .imput-group {
+        overflow: auto;
+    }
 }
 
-@media  screen and ( max-width:  1280px ){ 
+@media screen and (max-width: 1280px) {
+
+    form {
+        width: 30%;
+
+    }
 
 }
 
 
-@media  screen and ( max-width:  1000px ){ 
-    .persona img{
-        display: none;  
+@media screen and (max-width: 1030px) {
+
+    .group-img {
+        width: 80vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .persona img {
+        display: none;
     }
 
     .description-group {
@@ -20,50 +32,54 @@
         align-items: baseline;
     }
 
-    .marca {
-        display: flex;
-        justify-content: left;
-        padding: 1rem;
-        
-
-    }
-
     form {
-        width: 40%;
-        
+        width: 35%;
+
     }
 
 }
 
- 
-@media screen and ( max-width: 600px) {
+
+@media screen and (max-width: 750px) {
 
 
-    .description-group {
-        min-height: 50%;
+    .group-img {
+        width: 97%;
+        position: static;
         display: flex;
-        align-items:center;
-        justify-content: left;
-    }
-    
-    .group-img{
-        position: relative;
+        justify-content: center;
     }
 
-       .form {
+    .container {
+        width: 97%;
+    }
+
+    .form {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .marca {
-        height: 80%;
         display: flex;
         justify-content: center;
     }
 
     form {
-        width: 80%;
-        
+        width: 60%;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .group-img {
+        margin-bottom: 2rem;
+    }
+
+    form {
+        width: 70%;
+
+
     }
 }
