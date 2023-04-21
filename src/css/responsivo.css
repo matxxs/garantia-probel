@@ -30,16 +30,12 @@
     .description-group {
         display: flex;
         align-items: center;
-        margin: 2rem;
     }
 
     form {
         width: 35%;
-
     }
-
 }
-
 
 @media screen and (max-width: 750px) {
 
@@ -76,10 +72,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
-    .group-img {
-        margin-bottom: 2rem;
-    }
 
     form {
         width: 70%;
