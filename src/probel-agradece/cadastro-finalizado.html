@@ -102,13 +102,32 @@
             cursor: pointer;
             color: black;
             transition: ease 1s;
-         
         }
 
         #button:hover{
             background-color: #d3b06e; 
             color: #fff;
-        
+        }
+
+        @media screen and (max-width: 650px) {
+
+            .texto.a {
+                font-size: 35px;
+            }
+
+            .texto.b {
+                font-size: 19px;
+            }
+
+            .button-group #button {
+                font-size: 15px
+            }  
+        }
+
+        @media screen and (max-width: 600px) {
+            .texto.a {
+                font-size: 30px;
+            }
         }
 
     </style>
