@@ -27,7 +27,7 @@ main {
 
 body{
     /* background-image: url('/src/imagem/BG.png'); */
-    max-width: 1280px;
+    max-width: 1920px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -53,61 +53,34 @@ body{
     margin-left: 2rem; 
 }
     
-    
-.persona    img {
+.persona img {
     height: 600px;
-}    
+}
 
-
-.marca {
-    position: absolute;
-    width: 100vw;
-    height: 100Vh;
+.center-group {
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: end;
-    padding: 3rem;
-}
-
-.marca img {
-    width: 300px;
-}
-.social-media {
-    display: flex;
-}
-.social-media img {
-    margin: 0.5rem;
-    width: 50px;
-}
-
-.social-media img {
-    transition: 0.2 ease-in-out;
-}
-
-.social-media img:hover {
-    transform: scale(1.2);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .description-group {
-    min-height: 95%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-size: 35px;
     text-align: center;
-    padding: 2rem;
-  
+    padding: 2rem; 
 }
 
 .description#p1 {
-    padding: 0.5rem;
+    padding: 1rem;
     color: #d3b06e;
     
 } 
 
 .description#p2 {
-    padding: 0.5rem;
+    padding: 1rem;
     color: #ffffffff;
 }
 
@@ -124,9 +97,15 @@ body{
     margin-top: 2rem;
 }
 
+.marca {
+    padding: 2rem;
+}
+
+.marca img {
+    width: 300px;
+}
 
  .container {
-
     width: 100vw;
     height: 100vh; 
     display: flex;

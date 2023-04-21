@@ -29,29 +29,29 @@
 
     .description-group {
         display: flex;
-        align-items: baseline;
+        align-items: center;
     }
 
     form {
         width: 35%;
-
     }
-
 }
-
 
 @media screen and (max-width: 750px) {
 
 
     .group-img {
-        width: 97%;
+        width: 99%;
         position: static;
         display: flex;
         justify-content: center;
     }
 
     .container {
-        width: 97%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .form {
@@ -72,10 +72,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
-    .group-img {
-        margin-bottom: 2rem;
-    }
 
     form {
         width: 70%;
