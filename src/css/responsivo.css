@@ -1,93 +1,69 @@
 @media screen and ( max-width: 1920px) {
-
-    .probel-imagem {
-        position: fixed;
-    }
-
-    .container{
-        width: 100%;
-       height: auto;
-        padding: 1rem;
-    }
-
-    .form{
-
-        width: 25%;
-    }
+    
+    .imput-group{
+        overflow: auto; 
+    }    
 }
 
-@media (max-width: 1090px){
+@media  screen and ( max-width:  1280px ){ 
+
+}
 
 
-    
-    main{
-        margin: 0;
-        background-color: var(--color-bottom);
-    }
-    
-    .probel-imagem {
-      display: none;
+@media  screen and ( max-width:  1000px ){ 
+    .persona img{
+        display: none;  
     }
 
-    .container {
-        height: auto;
-        padding: 2rem;
+    .description-group {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .marca {
+        display: flex;
+        justify-content: left;
+        padding: 1rem;
+        
+
+    }
+
+    form {
+        width: 40%;
+        
+    }
+
+}
+
+ 
+@media screen and ( max-width: 600px) {
+
+
+    .description-group {
+        min-height: 50%;
+        display: flex;
+        align-items:center;
+        justify-content: left;
+    }
+    
+    .group-img{
+        position: relative;
+    }
+
+       .form {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .form {
-        width: 50%;
+    .marca {
+        height: 80%;
+        display: flex;
+        justify-content: center;
     }
-}
 
-@media screen and ( max-width: 768px) {
-
-    .form{
-        width: 50%;
-        height: auto;
-    }
-}
-
-@media screen and ( max-width: 650px) {
-   
-    
-    .form{
-        width: 70%;
-    }
-}
-
-@media screen and ( max-width: 590px ){
-
-    .form{
+    form {
         width: 80%;
+        
     }
 }
-    
-
-
-@media screen and ( max-width: 480px ){
-
-    .form{
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 380px) { 
-    
-    .container {
-        height: 90%;
-        padding: 1rem;
-    }
-    .form{
-        width: 90%;
-       
-    }
-}
-
-    
-
-    
-
-    
