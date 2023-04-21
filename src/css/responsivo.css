@@ -29,7 +29,8 @@
 
     .description-group {
         display: flex;
-        align-items: baseline;
+        align-items: center;
+        margin: 2rem;
     }
 
     form {
@@ -44,14 +45,17 @@
 
 
     .group-img {
-        width: 97%;
+        width: 99%;
         position: static;
         display: flex;
         justify-content: center;
     }
 
     .container {
-        width: 97%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .form {
