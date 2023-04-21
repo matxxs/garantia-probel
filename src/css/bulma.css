@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=MuseoModerno&family=Open+Sans&family=Poppins:wght@500&family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap'); 
+
 
 :root{
     --color-border-menu:rgba( 0, 0, 0, .212);
@@ -14,39 +15,130 @@
 }
 
 *{
-    margin: 0;
+    margin: 0 ;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    margin: 0 auto;
-    font-family: 'Inter', sans-serif;
+    /* background-image: url('/src/imagem/BG.png'); */
+    max-width: 1280px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-.probel-imagem {
-    position: fixed;
+.group-img {
+    position: absolute;
     height: 100vh;
+    width: 100vw;
     z-index: -1;
+}
+
+.bg {
+    position: fixed;
+    z-index:-1;
+}
+
+.persona {
+    position: absolute;
+    
+    display: flex;
+    align-items: end;
+    height: 100%;
+    margin-left: 2rem; 
+}
+    
+    
+.persona    img {
+    height: 600px;
+}    
+
+
+.marca {
+    position: absolute;
+    width: 100vw;
+    height: 100Vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 3rem;
+}
+
+.marca img {
+    width: 300px;
+}
+.social-media {
+    display: flex;
+}
+.social-media img {
+    margin: 0.5rem;
+    width: 50px;
+}
+
+.social-media img {
+    transition: 0.2 ease-in-out;
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
+}
+
+.description-group {
+    min-height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-align: center;
+    padding: 2rem;
   
 }
 
-.probel-imagem img {
-    height: 100%;
+.description#p1 {
+    padding: 0.5rem;
+    color: #d3b06e;
+    
+} 
+
+.description#p2 {
+    padding: 0.5rem;
+    color: #ffffffff;
 }
 
-.container {
+
+ .description#p1 p::after{
+    content: '';
+    display: block;
+    width: 10;
+    height: 0.2rem;
+    background-color: #fff;
+    margin: 10px;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+
+ .container {
+ 
     width: 100vw;
-    height: 100vh;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+ 
+}
+
+.form {
+    max-height: 100vh;
+    width: 95%;
     display: flex;
     justify-content: right;
     align-items: center;
 }
 
-.form{
-    position: relative;
-    width: 25%;
-    height: auto;
+form{
+    width: 20%;
     border-radius: 20px;
     box-shadow: 5px 5px 5px var(--color-border-menu);
     background-color: var(--color-menu);
@@ -54,34 +146,42 @@ body{
 
 
 
-.probel-logo {
-    padding: 1.4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+html ::-webkit-scrollbar {
+    width: 2px;
 }
 
+html ::-webkit-scrollbar-thumb {
+    border-radius: 40px;
+    background: #1345af;
+}
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+
 .imput-group{
+    height: 45vh;
     padding: 1rem;
 }
 
 .form .imput-box{
-    padding: 1.6px;
+    padding: 1px;
 }
 
-.probel-logo img{
-    width: 130px;
-}
 
 .imput-box {
     display: flex;
     flex-direction: column;
-    margin-bottom: 0.9rem ;
+    margin-bottom: 1rem ;
 }
 
 .imput-box input{
     margin: 0.8rem 1.4;
-    padding: 0.2rem ;
+    padding: 0.3rem ;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px var(--color-border-text);
@@ -92,7 +192,7 @@ body{
 }
 
 .imput-box input:focus-visible{
-    outline: 1px solid var(--color-outline);
+    outline: 1.5px solid var(--color-outline);
 }
 
 .imput-box label,
@@ -103,7 +203,7 @@ body{
 }
 
 .box-box{
-    padding: 0 2rem 1rem 2rem;
+    padding: 2rem 0.5rem 0.5rem;
 }
 
 .box-box label,
@@ -122,9 +222,8 @@ body{
 
 .button-is-send {
     display: flex;
-    justify-content: center;
-    align-items:  center;
-    padding: 1.5rem;
+    justify-content: center;  
+    padding: 1.5rem 0 2rem 0;
 }
 
 .button-is-send #button {
