@@ -1,0 +1,15 @@
+
+.footer{
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 12rem;
+    width: 100%;
+    bottom: 0;
+    padding: 1rem;
+}
+
+.footer img {
+    width: 350px;
+}

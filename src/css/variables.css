@@ -1,0 +1,33 @@
+:root {
+    --probel-color: #004878;
+    --pelmex-color: #ae0f0a;
+
+    --box-shadow-color: rgba(0, 0, 0, 0.336);
+    --text-body-color: #2d2f31;
+    /* ------------------------------ */
+    /* ------ HEADER VARIABLES ------ */
+    /* ------------------------------ */
+    --text-color-hover: #337ab7;
+    --text-background-color-hover: #337ab715;
+    --registration-button-color: #126DA6;
+    --registration-button-color-hover: #004878;
+    /* ------------------------------ */
+    /* ------ INDEX VARIABLES ------- */
+    /* ------------------------------ */
+
+    /* ------------------------------ */
+    /* ------ FOOTER VARIABLES ------ */
+    /* ------------------------------ */
+
+    /* ------------------------------ */
+    /* ----- FORM VARIABLES --------- */
+    /* ------------------------------ */
+    --alert-background-color: rgb(221, 194, 43);
+    --input-focus-color: #797984;
+    --border-color: #2d2f31;
+    --camera-color: #868686;
+    --border-term: #d3d3d4;
+    --bnt-background-color-inactive: #868686;
+    --bnt-background-color:  #126DA6;
+    --bnt-background-color-houver-focus: #004878; 
+}

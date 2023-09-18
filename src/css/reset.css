@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul{ 
+    list-style: none;
+
+}
+
+a {
+    color: var(--text-body-color);
+}
+
+button {
+    background-color: transparent;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    color: var(--text-body-color);
+    margin: 0;
+}
